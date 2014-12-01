@@ -1,0 +1,10 @@
+﻿0. PreDataScripts
+1. DatabaseCreate
+2. Tables
+3. Triggers
+4. Functions
+5. StoredProcedures
+6. Indexes
+7. Views
+999. PostDataScripts
+Version

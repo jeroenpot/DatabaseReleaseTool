@@ -1,0 +1,21 @@
+﻿DatabaseReleaseTool by Dorus Verhoeckx, Mirabeau BV (c) 2009
+Updates a database with the given scripts directory.
+
+Usage:
+To update a database:
+
+Mirabeau.DatabaseReleaseTool.exe -d:[pathToDatabaseScripts] -c:[configurationfile] -vf:[fromdatabaseversion] -vt:[todatabaseversion] [-databasetype:[MsSql||Oracle||MySql]]
+or
+Mirabeau.DatabaseReleaseTool.exe -d:[pathToDatabaseScripts] -server:[databaseservername] -username:[databaseusername] -password:[databasepassword] -databasename:[databasename] -vf:[fromdatabaseversion] -vt:[todatabaseversion] [-databasetype:[MsSql||Oracle||MySql]] [-createdatabase]
+
+
+Hidden directories will be ignored.
+The default CommandTimeout per Sql script is 900 seconds.
+The default database type is MsSql.
+The SQL Files will be read with Default Encoding. (ANSI Windows CP page ??)
+The used encoding can be changed to UTF8:
+Mirabeau.DatabaseReleaseTool.exe -utf8
+
+To get more information:
+Mirabeau.DatabaseReleaseTool.exe -i
+

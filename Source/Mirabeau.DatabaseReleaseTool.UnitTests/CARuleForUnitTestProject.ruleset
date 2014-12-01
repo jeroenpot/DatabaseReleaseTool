@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RuleSet Name="Copy of Microsoft Basic Correctness Rules" Description="These rules focus on logic errors and common mistakes made in the usage of framework APIs. Include this rule set to expand on the list of warnings reported by the minimum recommended rules." ToolsVersion="11.0">
+  <Include Path="minimumrecommendedrules.ruleset" Action="Default" />
+  <Rules AnalyzerId="Microsoft.Analyzers.ManagedCodeAnalysis" RuleNamespace="Microsoft.Rules.Managed">
+    <Rule Id="CA1008" Action="Warning" />
+    <Rule Id="CA1013" Action="Warning" />
+    <Rule Id="CA1301" Action="None" />
+    <Rule Id="CA1400" Action="None" />
+    <Rule Id="CA1401" Action="None" />
+    <Rule Id="CA1403" Action="None" />
+    <Rule Id="CA1404" Action="None" />
+    <Rule Id="CA1405" Action="None" />
+    <Rule Id="CA1410" Action="None" />
+    <Rule Id="CA1415" Action="None" />
+    <Rule Id="CA1806" Action="Warning" />
+    <Rule Id="CA1816" Action="Warning" />
+    <Rule Id="CA1819" Action="Warning" />
+    <Rule Id="CA1820" Action="Warning" />
+    <Rule Id="CA1900" Action="None" />
+    <Rule Id="CA1901" Action="None" />
+    <Rule Id="CA2002" Action="None" />
+    <Rule Id="CA2100" Action="None" />
+    <Rule Id="CA2101" Action="None" />
+    <Rule Id="CA2108" Action="None" />
+    <Rule Id="CA2111" Action="None" />
+    <Rule Id="CA2112" Action="None" />
+    <Rule Id="CA2114" Action="None" />
+    <Rule Id="CA2116" Action="None" />
+    <Rule Id="CA2117" Action="None" />
+    <Rule Id="CA2122" Action="None" />
+    <Rule Id="CA2123" Action="None" />
+    <Rule Id="CA2124" Action="None" />
+    <Rule Id="CA2126" Action="None" />
+    <Rule Id="CA2131" Action="None" />
+    <Rule Id="CA2132" Action="None" />
+    <Rule Id="CA2133" Action="None" />
+    <Rule Id="CA2134" Action="None" />
+    <Rule Id="CA2137" Action="None" />
+    <Rule Id="CA2138" Action="None" />
+    <Rule Id="CA2140" Action="None" />
+    <Rule Id="CA2141" Action="None" />
+    <Rule Id="CA2146" Action="None" />
+    <Rule Id="CA2147" Action="None" />
+    <Rule Id="CA2149" Action="None" />
+    <Rule Id="CA2205" Action="Warning" />
+    <Rule Id="CA2215" Action="Warning" />
+    <Rule Id="CA2221" Action="Warning" />
+    <Rule Id="CA2222" Action="Warning" />
+    <Rule Id="CA2223" Action="Warning" />
+    <Rule Id="CA2224" Action="Warning" />
+    <Rule Id="CA2226" Action="Warning" />
+    <Rule Id="CA2227" Action="Warning" />
+    <Rule Id="CA2231" Action="Warning" />
+    <Rule Id="CA2239" Action="Warning" />
+  </Rules>
+</RuleSet>

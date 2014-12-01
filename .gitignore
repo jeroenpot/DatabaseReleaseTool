@@ -1,0 +1,9 @@
+Source/**/bin
+Source/**/obj/
+Source/packages/
+*.suo
+*.user
+
+# ReSharper is a .NET coding add-in
+_ReSharper*/
+*.[Rr]e[Ss]harper
