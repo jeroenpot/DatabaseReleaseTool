@@ -65,3 +65,9 @@ This will include:
 - Automatic installation of local (test) databases
 - Automatic creation of releases for defined databases
 - Deployment execution
+
+### Contribution guidelines ###
+* Comments, methods and variables in english.
+* Create unittests where possible.
+* Try to stick to the existing coding style.
+* Give a short description in the pull request what you're doing and why.
