@@ -7,3 +7,4 @@ Source/packages/
 # ReSharper is a .NET coding add-in
 _ReSharper*/
 *.[Rr]e[Ss]harper
+msbuild-by-convention/
